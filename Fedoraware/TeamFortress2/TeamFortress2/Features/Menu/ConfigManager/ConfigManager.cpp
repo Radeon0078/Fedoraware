@@ -1210,6 +1210,7 @@ bool CConfigManager::SaveVisual(const std::string& configName)
 		SAVE_VAR(Vars::Visuals::Snow);
 		SAVE_VAR(Vars::Visuals::ToolTips);
 		SAVE_VAR(Vars::Visuals::ThirdPerson);
+		SAVE_VAR(Vars::Visuals::ThirdPersonKey);
 		SAVE_VAR(Vars::Visuals::ThirdPersonSilentAngles);
 		SAVE_VAR(Vars::Visuals::ThirdPersonInstantYaw);
 		SAVE_VAR(Vars::Visuals::ThirdPersonServerHitbox);
